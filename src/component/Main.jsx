@@ -1,5 +1,5 @@
 
-import Container from "./container"
+import Container from "./Container"
 import GroubProfile from "./GroubProfile"
 
 
