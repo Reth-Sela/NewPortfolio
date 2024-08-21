@@ -16,8 +16,8 @@ const Header = () => {
           className={"bg-black text-white text-center rounded-none"}
         />
         <Alink text={"DESIGN"} imgSrc={design} className={"rounded-none"} />
-        <Alink text={"PHOTOS"} imgSrc={photo} className={"rounded-none"} />
-        <Alink text={"ART"} imgSrc={art} className={"rounded-none"} />
+        <Alink text={"PHOTOS"} imgSrc={photo} className={"rounded-none hidden md:flex"} />
+        <Alink text={"ART"} imgSrc={art} className={"rounded-none hidden md:flex"} />
       </div>
     </div>
   );

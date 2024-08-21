@@ -10,7 +10,7 @@ const SpendforStudy = ({
   background,
 }) => {
   return (
-    <div className="w-[380px] h-[540px] block mt-[12px] transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+    <div className="lg:w-[380px] md:w-[300px] sm:w-[220px] h-[540px] block mt-[12px] transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
       <div
         className={`h-[100px] border  border-gray-300 text-[24px] flex items-center font-raleway justify-center text-white ${background}`}
       >

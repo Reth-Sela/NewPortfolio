@@ -37,7 +37,7 @@ const GroupAbout = () => {
         </h1>
       </div>
 
-      <div className="flex">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[12px] sm:gap-[24px]">
         <div>
           <SpendforStudy
             background={"bg-gray-500"}

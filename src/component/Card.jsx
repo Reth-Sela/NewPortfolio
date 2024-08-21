@@ -1,6 +1,6 @@
 const Card = ({href,imgSrc,title,text}) => {
     return (
-      <div className="w-[390px] h-auto bg-white rounded-lg shadow-lg overflow-hidden my-4">
+      <div className="lg:w-[390px] md:w-[340px] h-auto bg-white rounded-lg shadow-lg overflow-hidden my-4">
         <a
           href={href}
           className="block"

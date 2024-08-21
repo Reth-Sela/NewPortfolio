@@ -8,7 +8,7 @@ import PageLink from "./PageLink"
 
 const Container = () => {
   return (
-   <div id="scroll-container" className="ml-[300px] h-[100vh] overflow-y-auto">
+   <div id="scroll-container" className="ml-[300px]  pt-0 sm:ml-[200px] md:ml-[250px] lg:ml-[300px] h-[100vh] overflow-y-auto">
     <div id="header" >
        <Header/>
         <GroubCard/>
