@@ -6,7 +6,7 @@ import Technical from "./Technical";
 import Progressbar from "./Progressbar";
 import Download from "./Download";
 import SpendforStudy from "./SpendforStudy";
-import Link from "./Link";
+import Link from "./Alink";
 
 const GroupAbout = () => {
   return (
@@ -40,7 +40,7 @@ const GroupAbout = () => {
       <div className="flex">
         <div>
           <SpendforStudy
-            background={'bg-gray-500'}
+            background={"bg-gray-500"}
             title={"Basic"}
             sub1={"Web design "}
             sub2={"photography"}
@@ -51,7 +51,7 @@ const GroupAbout = () => {
         </div>
         <div>
           <SpendforStudy
-            background={'bg-blue-500'}
+            background={"bg-blue-500"}
             title={"Pro"}
             sub1={"Web design "}
             sub2={"photography"}
@@ -62,7 +62,7 @@ const GroupAbout = () => {
         </div>
         <div>
           <SpendforStudy
-            background={'bg-gray-500'}
+            background={"bg-gray-500"}
             title={"Primuim"}
             sub1={"Web design "}
             sub2={"photography"}

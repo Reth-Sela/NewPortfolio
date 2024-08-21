@@ -1,15 +1,16 @@
-import  download  from '../assets/download.png'
-import Link from './Link'
+import download from "../assets/download.png";
+import Alink from "./Alink";
 
 const Download = () => {
   return (
     <div>
-        <Link imgSrc={download} text={'Download Resume'} className={"bg-gray-500"}/>
+      <Alink
+        imgSrc={download}
+        text={"Download Resume"}
+        className={"bg-gray-500"}
+      />
     </div>
-    
-        
-    
-  )
-}
+  );
+};
 
-export default Download
+export default Download;
