@@ -9,9 +9,39 @@ import SpendforStudy from "./SpendforStudy";
 import Link from "./Alink";
 
 const GroupAbout = () => {
+  const charge = [
+    {
+      background: "bg-gray-500",
+      tittle: "Basic",
+      sub1: "Web Design",
+      sub2: "Photography",
+      sub3: "1GB Storage",
+      sub4: "Mail Support",
+      price: "$30",
+    },
+    {
+      background: "bg-blue-500",
+      tittle: "Pro",
+      sub1: "Web Design",
+      sub2: "Photography",
+      sub3: "50GB Storage",
+      sub4: "Endless Support",
+      price: "$25",
+    },
+
+    {
+      background: "bg-gray-500",
+      tittle: "Primuim",
+      sub1: "Web Design",
+      sub2: "Photography",
+      sub3: "1GB Storage",
+      sub4: "Mail Support",
+      price: "$30",
+    },
+  ];
   return (
-    <div className="block ml-[20px]  mt-[50px] mb-[60px]">
-      <div className="flex  gap-[20px]">
+    <div className="block mx-[20px]  mt-[50px] mb-[60px]">
+      <div className="flex  gap-[10px] sm:gap-5">
         <Bigphoto imgScr={boko} href={boko} />
         <Bigphoto imgScr={handsomeboy} href={handsomeboy} />
       </div>
@@ -37,40 +67,20 @@ const GroupAbout = () => {
         </h1>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[12px] sm:gap-[24px]">
-        <div>
-          <SpendforStudy
-            background={"bg-gray-500"}
-            title={"Basic"}
-            sub1={"Web design "}
-            sub2={"photography"}
-            sub3={"1GB Storage"}
-            sub4={"Mail support"}
-            price={"$30"}
-          />
-        </div>
-        <div>
-          <SpendforStudy
-            background={"bg-blue-500"}
-            title={"Pro"}
-            sub1={"Web design "}
-            sub2={"photography"}
-            sub3={"50GB Storage"}
-            sub4={"Endless support"}
-            price={"$25"}
-          />
-        </div>
-        <div>
-          <SpendforStudy
-            background={"bg-gray-500"}
-            title={"Primuim"}
-            sub1={"Web design "}
-            sub2={"photography"}
-            sub3={"1GB Storage"}
-            sub4={"Mail support"}
-            price={"$30"}
-          />
-        </div>
+      <div className=" mx-[5px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[12px] sm:gap-[24px]">
+        {charge.map((c) => {
+          return (
+            <SpendforStudy
+              background={c.background}
+              title={c.tittle}
+              sub1={c.sub1}
+              sub2={c.sub2}
+              sub3={c.sub3}
+              sub4={c.sub4}
+              price={c.price}
+            />
+          );
+        })}
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import sent from "../assets/whitesent.png";
+import sent from "../assets/sentmailwhite.png";
 
 const BodyContact = () => {
   return (
@@ -59,10 +59,10 @@ const BodyContact = () => {
         <div className="text-start">
           <button
             type="submit"
-            className="bg-black text-white px-6 py-3 rounded-full hover:bg-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 flex items-center space-x-3 transition-transform transform hover:scale-105 group"
+            className="bg-black text-white px-6 py-3 rounded-full  focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 flex items-center space-x-3 transition-transform transform hover:scale-105 group"
           >
             <img src={sent} alt="Send Icon" className="w-5 h-5" />
-            <span className="font-medium transition-colors group-hover:text-black">Send Message</span>
+            <span className="font-medium transition-colors">Send Message</span>
           </button>
         </div>
       </form>

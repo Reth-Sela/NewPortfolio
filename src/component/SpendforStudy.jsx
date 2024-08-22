@@ -9,6 +9,8 @@ const SpendforStudy = ({
   price,
   background,
 }) => {
+
+  
   return (
     <div className="lg:w-[380px] md:w-[300px] sm:w-[220px] h-[540px] block mt-[12px] transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
       <div
