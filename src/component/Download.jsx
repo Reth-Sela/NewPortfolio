@@ -7,7 +7,7 @@ const Download = () => {
       <Alink
         imgSrc={download}
         text={"Download Resume"}
-        className={"bg-gray-500"}
+        className={"bg-gray-500 text-white"}
       />
     </div>
   );

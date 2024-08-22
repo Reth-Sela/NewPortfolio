@@ -6,9 +6,13 @@ import "../component/animation.css";
 const GroubProfile = () => {
   return (
     <div
-      id="groub-profile"
-      className="w-full sm:w-[200px] md:w-[250px] lg:w-[300px] fixed left-0 top-0 h-[100vh] border-r-2 border-gray-200 block move-from-left bg-white"
-    >
+  id="groub-profile"
+  className="w-full sm:fixed sm:w-[200px] md:w-[250px] lg:w-[300px]  border-r-2 border-gray-200 bg-white move-from-left sm:overflow-y-scroll"
+>
+ 
+
+  
+
       <Profile
         imgSrc={selapic}
         href={selapic}
