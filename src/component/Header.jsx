@@ -22,12 +22,12 @@ const Header = () => {
         <Alink
           text={"PHOTOS"}
           imgSrc={photo}
-          className={"rounded-none "}
+          className={"rounded-none hidden sm:flex"}
         />
         <Alink
           text={"ART"}
           imgSrc={art}
-          className={"rounded-none "}
+          className={"rounded-none hidden sm:flex"}
         />
       </div>
     </div>
