@@ -1,8 +1,7 @@
 import ContactComponent from "./ContactComponent";
-import email from '../assets/email.png'
-import location from '../assets/location.png'
-import call from '../assets/call.png'
-import phone from "../assets/phone.png"
+import email from '../assets/emailwhitecolor.png'
+import location from '../assets/locationwhitecolor.png'
+import phone from "../assets/callwhitecolor.png"
 
 
 const HeaderContact = () => {
