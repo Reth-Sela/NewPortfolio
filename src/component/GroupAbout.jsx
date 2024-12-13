@@ -50,11 +50,11 @@ const GroupAbout = () => {
         <Description />
       </div>
       <div className=" block mt-[40px] ">
-        <Technical technical={"Technical Skill"} skill={"Photography"} />
+        <Technical technical={"Technical Skill"} skill={"Tailwind"} />
         <Progressbar number={"90%"} />
-        <Technical skill={"Web Design"} />
-        <Progressbar number={"85%"} />
-        <Technical skill={"PhotoShop"} />
+        <Technical skill={"REACT JS"} />
+        <Progressbar number={"70%"} />
+        <Technical skill={"Next js"} />
         <Progressbar number={"80%"} />
       </div>
       <div className="w-[240px] h-[40px] mt-[30px] ">

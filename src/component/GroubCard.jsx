@@ -4,7 +4,7 @@ import bokkomountain from '../assets/bokkomountain.jpg';
 import kep from '../assets/kep.jpg';
 import sihanuk from '../assets/sihanuk.jpg';
 import movie from '../assets/movie.jpg';
-import babe from '../assets/babe.jpg';
+import mark from '../assets/mark.webp';
 
 const GroubCard = () => {
   const cards = [
@@ -39,10 +39,10 @@ const GroubCard = () => {
       text: "Reading book is my hobby",
     },
     {
-      href: babe,
-      imgSrc: babe,
-      title: "MeyNeang",
-      text: "MeyNeang is my important person",
+      href: mark,
+      imgSrc: mark,
+      title: "????",
+      text: "???? is my important person",
     }
   ];
 

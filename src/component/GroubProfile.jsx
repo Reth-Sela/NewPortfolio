@@ -17,8 +17,8 @@ const GroubProfile = () => {
         imgSrc={selapic}
         href={selapic}
         imgAlt={"picture"}
-        name={"OGLA"}
-        text={"CREATE BY OGLA"}
+        name={"RETH SELA"}
+        text={"CREATE BY RETH SELA"}
       />
       <GroupLink />
     </div>
